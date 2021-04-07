@@ -27,6 +27,6 @@ namespace addressbook_tests_autoit
             Console.WriteLine(string.Join("\n", oldGroups));
             Console.WriteLine(string.Join("\n", newGroup));      
             Assert.AreEqual(oldGroups, newGroups);
-    }
+        }
     }
 }
